@@ -162,6 +162,11 @@ cluster.
     - storage_read_throughput_in_kb (optional, requires RavenDB v5.4.105+)
     - storage_write_throughput_in_kb (optional, requires RavenDB v5.4.105+)
     - storage_queue_length (optional, requires RavenDB v5.4.105+)
+    - storage_io_read_operations (requires RavenDB v5.4.105+)
+    - storage_io_write_operations (requires RavenDB v5.4.105+)
+    - storage_read_throughput_in_kb (requires RavenDB v5.4.105+)
+    - storage_write_throughput_in_kb (requires RavenDB v5.4.105+)
+    - storage_queue_length (requires RavenDB v5.4.105+)
     - time_since_last_backup_in_sec (optional)
     - uptime_in_sec
 
